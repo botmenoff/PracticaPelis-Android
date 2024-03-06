@@ -1,4 +1,4 @@
-package com.example.demo_bbdd
+package cat.salle.dbdemo
 
 import org.junit.Test
 

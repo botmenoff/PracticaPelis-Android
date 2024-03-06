@@ -1,4 +1,4 @@
-package com.example.demo_bbdd
+package cat.salle.dbdemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.demo_bbdd", appContext.packageName)
+        assertEquals("cat.salle.dbdemo", appContext.packageName)
     }
 }
